@@ -1,0 +1,6 @@
+import Data.List
+
+mylast :: [a] -> a
+mylast [] = error "No end for empty lists"
+mylast [x] = x
+mylast (x : xs) = mylast xs 
