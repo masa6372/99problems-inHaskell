@@ -1,4 +1,5 @@
 import Data.List
+import 1.hs
 
 myButLast :: [a] -> a
 myButLast [] = error "this list is empty!"
